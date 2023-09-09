@@ -4,6 +4,10 @@ from utils import *
 app = Flask(__name__)
 app.json.sort_keys = False
 
+# github links 
+github_file_url = "https://github.com/Muftawu/HNGx/blob/master/stage1/main.py"
+github_repo_url = "https://github.com/Muftawu/HNGx/tree/master/stage1"
+
 @app.route("/muftawu/api")
 def get_details():
     slack_name = request.args.get("slack_name")
@@ -14,8 +18,8 @@ def get_details():
     "current_day": get_day_of_week(),
     "utc_time": get_utc_time(),
     "track": track,
-    "github_profile_url": "",
-    "github_repo_url": "",
+    "github_file_url": github_file_url,
+    "github_repo_url": github_repo_url,
     "status_code": 200,
     }
 
