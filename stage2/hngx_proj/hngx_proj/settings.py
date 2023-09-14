@@ -25,11 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True  
 
 ALLOWED_HOSTS = ['*']
 
-if not DEBUG:
+if DEBUG:
     CSRF_TRUSTED_ORIGINS = ["https://hngx-production-6712.up.railway.app"]
 
 

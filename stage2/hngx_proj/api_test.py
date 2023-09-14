@@ -27,9 +27,9 @@ if __name__ == "__main__":
     # disp(get_all_persons())
     # disp(get_person("Mohammed Yiwere"))
     disp(create_person("Mohammed Yiwere"))
-    disp(create_person("Avonor Philip"))
-    disp(create_person("Ernestina Fosu"))
-    disp(create_person("Correy Schafer"))
+    # disp(create_person("Avonor Philip"))
+    # disp(create_person("Ernestina Fosu"))
+    # disp(create_person("Correy Schafer"))
     # disp(delete_person("Avonor Philip"))
     # disp(update_person("Muftawu Mohammed", "Suleimana Adams"))
 
