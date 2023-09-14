@@ -29,6 +29,9 @@ DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 
+if not DEBUG:
+    CSRF_TRUSTED_ORIGINS = ["https://hngx-production-6712.up.railway.app"]
+
 
 # Application definition
 
