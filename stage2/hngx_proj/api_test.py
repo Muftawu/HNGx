@@ -2,7 +2,8 @@ import requests
 from app.utils import disp
 from typing import Union
 
-base_url = "http://127.0.0.1:8000/api"
+# base_url = "http://127.0.0.1:8000/api"
+base_url = "https://hngx-production-6712.up.railway.app"
 
 def get_all_persons():
     return requests.get(base_url + "/all_persons").text
