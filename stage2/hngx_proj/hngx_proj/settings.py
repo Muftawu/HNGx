@@ -88,14 +88,25 @@ WSGI_APPLICATION = 'hngx_proj.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'hng', 
+#         'USER': 'postgres',
+#         'PASSWORD': '0010',
+#         'HOST': '127.0.0.1', 
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hng', 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '0010',
-        'HOST': '127.0.0.1', 
-        'PORT': '5432',
+        'PASSWORD': 'L6KcYtYRTJNFBbYWkzcl',
+        'HOST': 'containers-us-west-142.railway.app',
+        'PORT': '6242',
     }
 }
 
