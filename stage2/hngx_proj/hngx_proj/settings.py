@@ -105,11 +105,11 @@ WSGI_APPLICATION = 'hngx_proj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('NAME'),
-        'USER': config('USER'),
-        'PASSWORD': config('PASSWORD'),
-        'HOST': config('HOST'),
-        'PORT': config('PORT'),
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'L6KcYtYRTJNFBbYWkzcl',
+        'HOST': 'containers-us-west-142.railway.app',
+        'PORT': '6242',
     }
 }
 
