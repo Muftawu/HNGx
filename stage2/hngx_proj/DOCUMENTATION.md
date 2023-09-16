@@ -10,6 +10,7 @@
     | {domain}/api/update/             | update specific person details  | 
     | {domain}/api/delete/user_id/     | delete a specific person        | 
    
+## deployed endpoint = https://hngx-production-6712.up.railway.app/api/
 
 ## FORMAT FOR REQUESTS AND RESPONSES
     - All request and responses are in JSON formats

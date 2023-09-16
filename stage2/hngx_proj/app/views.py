@@ -55,10 +55,8 @@ def update_person(request):
 
 @api_view(['DELETE'])
 def delete_person(request, query):
-    name = ""
     try:
         person = Person.objects.get(id=query)
-        name = person.name 
         disp(PersonSerializer(person).data)
         person.delete()
         return Response({'Success': f"{person.name} deleted successfully"}, status=status.HTTP_200_OK)
